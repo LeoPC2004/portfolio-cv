@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { personalInfo } from '../data/portfolio';
-import { FileDown, ArrowRight } from 'lucide-react';
+import { FileDown, ArrowRight, Database, Terminal, BarChart3, Cpu } from 'lucide-react';
 
 export default function Hero() {
   return (
@@ -51,10 +51,18 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="relative hidden md:block"
         >
-          {/* Placeholder for Photo */}
+          {/* Hero Avatar Image */}
           <div className="w-80 h-80 mx-auto glass-card rounded-3xl overflow-hidden flex items-center justify-center border-white/10 relative group">
-            <div className="absolute inset-0 bg-gradient-to-tr from-maroon/40 to-transparent opacity-50 group-hover:opacity-70 transition-opacity"></div>
-            <span className="text-cream/30 text-lg font-medium">Foto Placeholder</span>
+            <div className="absolute inset-0 bg-gradient-to-tr from-maroon/20 to-transparent opacity-50 group-hover:opacity-30 transition-opacity z-10 pointer-events-none"></div>
+            
+            <img 
+              src="/images/hero_avatar.png" 
+              alt="Leonardo Pachas - Data Engineer" 
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            />
+            
+            {/* Central Glow behind image */}
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-40 h-40 bg-maroon/30 rounded-full blur-3xl -z-10 group-hover:bg-maroon/40 transition-colors duration-500"></div>
           </div>
         </motion.div>
       </div>
