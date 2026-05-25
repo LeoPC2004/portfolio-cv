@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { personalInfo } from '../data/portfolio';
-import { FileDown, ArrowRight, Database, Terminal, BarChart3, Cpu } from 'lucide-react';
+import { FileDown, ArrowRight } from 'lucide-react';
 
 export default function Hero() {
   return (
