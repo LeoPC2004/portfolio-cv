@@ -123,7 +123,7 @@ export const certificates = [
   { name: "Power BI – Avanzado", image: "/images/cert-powerbi.jpg" },
   { name: "Power Apps y Power Automate", image: "/images/cert-powerapps.jpg" },
   { name: "Scrum Fundamentals", image: "/images/cert-scrum.jpg" },
-  { name: "Excel Profesional con IA", image: "/images/cert-excel.jpg" },
+  { name: "Excel Profesional con IA", image: "/images/certificado_Excel_Avanzado.pdf" },
   { name: "Congreso Internacional de Ingeniería de Sistemas", image: "/images/cert-congreso.jpg" },
   { name: "Fundamentals Python", image: "/images/cert-python.jpg" }
 ];
