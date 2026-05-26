@@ -37,16 +37,18 @@ export default function Projects() {
               )}
 
               {/* SOLO UN BOTÓN */}
-              <div className="absolute inset-0 bg-maroon/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                <a
-                  href={project.link || "#"}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-4 bg-dark rounded-full text-cream hover:text-maroon-light transition-colors shadow-lg"
-                >
-                  <ExternalLink size={22} />
-                </a>
-              </div>
+              {project.link && (
+                <div className="absolute inset-0 bg-maroon/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="p-4 bg-dark rounded-full text-cream hover:text-maroon-light transition-colors shadow-lg"
+                  >
+                    <ExternalLink size={22} />
+                  </a>
+                </div>
+              )}
             </div>
 
             <div className="p-6">

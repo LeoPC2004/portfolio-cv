@@ -76,35 +76,35 @@ export const experience = [
 
 export const projects = [
   {
-    title: "Automatización de Reportes Financieros",
+    title: "Combinación de Libros PLE SUNAT",
     description:
-      "Sistema de automatización para reportes de Situación Financiera y Ganancias y Pérdidas integrados con Power BI.",
-    tags: ["Python", "Power BI", "VBA"],
-    image: "",
-    link: ""
+      "Aplicación web full stack desarrollada con arquitectura modular para procesar, automatizar y conciliar información de los libros electrónicos (PLE) de la SUNAT y archivos bancarios.",
+    tags: ["Python", "Flask", "Pandas", "JavaScript"],
+    image: "/images/SS_PaginaCombinaPLE.png",
+    link: "https://github.com/LeoPC2004/Pagina_Combinaci-n-LibrosPLE_Bancos"
   },
   {
-    title: "Transformación y Limpieza de Datos Bancarios",
+    title: "Automatización de Reportes Financieros",
     description:
-      "Desarrollo de herramientas para limpieza, estructuración y automatización de datos financieros utilizando Python, VBA y Excel.",
-    tags: ["Python", "Excel VBA", "Data Processing"],
-    image: "",
-    link: ""
+      "Aplicación web desarrollada con Flask para la automatización, consolidación y actualización masiva de reportes financieros mediante archivos Excel y TXT.",
+    tags: ["Python", "Flask", "Pandas", "OpenPyXL"],
+    image: "/images/SS_PaginaAutoReportesConta.png",
+    link: "https://github.com/LeoPC2004/Automatizaci-n-Reportes-Financieros"
   },
   {
     title: "Plataforma de Evaluación Crediticia con ML",
     description:
-      "Proyecto de investigación orientado a predicción y análisis de viabilidad crediticia mediante modelos predictivos y análisis de datos.",
-    tags: ["Machine Learning", "Python", "Data Analysis"],
-    image: "",
+      "Desarrollo de modelos predictivos supervisados y no supervisados para el análisis de viabilidad crediticia integrando procesos de ETL.",
+    tags: ["Machine Learning", "Databricks", "DataLake", "ETL"],
+    image: "/images/SS_PaginaML.png",
     link: ""
   },
   {
-    title: "Aplicaciones de Automatización Empresarial",
+    title: "Dashboards de Reportes Contables",
     description:
-      "Desarrollo de soluciones usando Power Apps, Power Automate y VBA para optimizar procesos organizacionales.",
-    tags: ["Power Apps", "Power Automate", "VBA"],
-    image: "",
+      "Desarrollo de dashboards interactivos y medición de KPIs para reportes contables de Situación Financiera y Ganancias y Pérdidas.",
+    tags: ["Power BI", "KPIs", "Data Visualization", "Finanzas"],
+    image: "/images/SS_ReportesCuentasContable.png",
     link: ""
   }
 ];
