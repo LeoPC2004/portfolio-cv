@@ -119,13 +119,16 @@ export const education = [
 ];
 
 export const certificates = [
-  { name: "SQL Server 2019 – Avanzado", image: "/images/cert-sql.jpg" },
-  { name: "Power BI – Avanzado", image: "/images/cert-powerbi.jpg" },
-  { name: "Power Apps y Power Automate", image: "/images/cert-powerapps.jpg" },
-  { name: "Scrum Fundamentals", image: "/images/cert-scrum.jpg" },
+  { name: "SQL Server 2019 – Avanzado", image: "/images/Certificado SQL Server.jpg" },
+  { name: "Power BI – Avanzado", image: "/images/Certificado PowerBi.jpg" },
+  { name: "Power BI – Intermedio", image: "/images/POWERBI INTERMEDIO.jpg" },
+  { name: "Power Apps y Power Automate", image: "/images/Certificado PowerApps y Automate.jpg" },
+  { name: "Scrum Fundamentals", image: "/images/Certificado Scrum.jpg" },
   { name: "Excel Profesional con IA", image: "/images/certificado_Excel_Avanzado.pdf" },
-  { name: "Congreso Internacional de Ingeniería de Sistemas", image: "/images/cert-congreso.jpg" },
-  { name: "Fundamentals Python", image: "/images/cert-python.jpg" }
+  { name: "Congreso Internacional de Ingeniería de Sistemas 2022", image: "/images/Congresos 2022.jpg" },
+  { name: "Congreso Internacional de Ingeniería de Sistemas 2023", image: "/images/Congreso 2023.jpg" },
+  { name: "Congreso Internacional de Ingeniería de Sistemas 2024", image: "/images/Congreso 2024.jpg" },
+  { name: "Python Essentials 1", image: "/images/Certificado Python Essential 1.pdf" }
 ];
 
 export const languages = [
