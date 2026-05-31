@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './sections/Hero';
 import About from './sections/About';
@@ -10,6 +11,12 @@ import Languages from './sections/Languages';
 import Contact from './sections/Contact';
 
 function App() {
+  useEffect(() => {
+    if (import.meta.env.DEV) {
+      console.log("BIENVENIDO CREMA 😼");
+    }
+  }, []);
+
   return (
     <div className="bg-dark text-cream font-outfit selection:bg-maroon selection:text-white min-h-screen">
       <Navbar />
