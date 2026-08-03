@@ -35,7 +35,7 @@ export default function Hero() {
             </a>
             <a
               href="/images/CV_LeoPachasCleonares.pdf"
-              download
+              download="CV_Leonardo_Pachas.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 glass hover:bg-white/10 text-cream font-medium rounded-lg transition-colors flex items-center gap-2"

@@ -1,8 +1,8 @@
 export const personalInfo = {
   name: "LEONARDO PACHAS CLEONARES",
-  title: "Estudiante de Ingeniería de Sistemas | Data Engineering & Automation Enthusiast",
+  title: "Egresado de Ingeniería de Sistemas | Data Analyst | Business Intelligence | Software Developer",
   shortDescription:
-    "Practicante de Sistemas orientado a automatización de procesos, transformación de datos y desarrollo de soluciones tecnológicas modernas utilizando Python, Power BI, SQL y herramientas de análisis de datos.",
+    "Egresado de Ingeniería de Sistemas con experiencia en el sector bancario, enfocado en el desarrollo de soluciones empresariales, análisis de datos, automatización de procesos y desarrollo de software utilizando Python, SQL, Power BI, Azure y Databricks.",
   contact: {
     phone: "937424001",
     email: "lmpc995205@gmail.com",
@@ -10,66 +10,74 @@ export const personalInfo = {
     github: "https://github.com/LeoPC2004"
   },
   about:
-    "Estudiante de Ingeniería de Sistemas (10.º ciclo) en la Universidad de Lima, con orientación profesional hacia el desarrollo de software, automatización de procesos y sistemas de información. Experiencia en proyectos relacionados con programación, visualización de datos, automatización y análisis financiero mediante Power BI, Python y VBA. Perfil proactivo, analítico y orientado a soluciones tecnológicas modernas."
+    "Egresado de Ingeniería de Sistemas de la Universidad de Lima con experiencia profesional en el Banco de la Nación, participando activamente en proyectos de automatización de procesos, desarrollo de aplicaciones web internas, procesamiento y transformación de datos, así como en la generación de reportes financieros y dashboards ejecutivos. Actualmente continúo profundizando mis conocimientos en tecnologías Cloud como Microsoft Azure y Databricks para fortalecer mi especialización en ingeniería y analítica de datos."
 };
 
 export const skills = {
   languages: [
     "Python",
-    "Java",
+    "SQL",
     "JavaScript",
-    "C++",
     "HTML",
     "CSS",
-    "SQL",
     "VBA",
+    "Java",
+    "C++",
     "R Studio",
     "Haskell",
     "Ruby"
   ],
   tools: [
     "Power BI",
-    "SQL Server",
+    "Azure",
+    "Databricks",
     "Git",
-    "SAP",
+    "SQL Server",
     "Excel VBA",
+    "Power Automate",
     "Power Apps",
-    "Power Automate"
+    "SAP"
   ],
   concepts: [
+    "Business Intelligence",
+    "Data Analytics",
     "ETL",
-    "Data Lake",
-    "Data Warehouse",
-    "SQL Analytics",
-    "Databricks",
-    "Machine Learning",
     "Automatización",
-    "Data Analysis",
+    "Cloud Computing",
+    "Desarrollo Web",
     "Dashboards",
-    "Arquitectura de Datos",
-    "Reporting",
-    "Scrum",
+    "Data Warehouse",
+    "Data Lake",
     "Transformación de Datos",
-    "Business Intelligence"
+    "SQL Analytics",
+    "Reporting",
+    "Machine Learning",
+    "Scrum"
   ]
 };
 
 export const experience = [
   {
+    role: "Asistente de Sistemas",
+    company: "Banco de la Nación",
+    period: "2026 – Actualidad",
+    functions: [
+      "Desarrollo de aplicaciones web internas y herramientas automatizadas para la optimización de procesos operativos y bancarios.",
+      "Diseño y ejecución de procesos ETL para la extracción, limpieza, transformación y estructuración de información financiera.",
+      "Construcción y mantenimiento de dashboards interactivos en Power BI para el seguimiento de indicadores clave de negocio (KPIs).",
+      "Consulta, filtrado y validación de datos financieros mediante SQL Server y bases de datos relacionales.",
+      "Especialización continua en la integración de arquitecturas en la nube con Azure y Databricks para analítica avanzada."
+    ]
+  },
+  {
     role: "Practicante de Sistemas",
     company: "Banco de la Nación",
-    period: "Agosto 2025 – Actualidad",
+    period: "Agosto 2025 – 2026",
     functions: [
-      "Creación de páginas interactivas para limpieza, transformación y ordenamiento de data bancaria",
-      "Automatización de procesos con Python y VBA",
-      "Conversión y estructuración de archivos PDF a Excel",
-      "Automatización de reportes financieros",
-      "Desarrollo de dashboards en Power BI",
-      "Herramientas de análisis financiero y seguimiento de indicadores",
-      "Integración y consolidación de datos bancarios",
-      "Aplicación de procesos ETL para transformación de información",
-      "Manejo conceptual de Data Lake y Data Warehouse para organización y análisis de datos",
-      "Uso de SQL para consultas y validación de información financiera"
+      "Automatización de reportes financieros y consolidación de datos bancarios reduciendo tareas manuales mediante Python y VBA.",
+      "Desarrollo de scripts en Python para la conversión y estructuración de archivos PDF/TXT a formatos procesables en Excel.",
+      "Creación de soluciones web interactivas para limpieza y ordenamiento masivo de información financiera.",
+      "Mapeo y aplicación de conceptos de Data Lake y Data Warehouse para el ordenamiento analítico de la data bancaria."
     ]
   }
 ];
@@ -78,32 +86,32 @@ export const projects = [
   {
     title: "Combinación de Libros PLE SUNAT",
     description:
-      "Aplicación web full stack desarrollada con arquitectura modular para procesar, automatizar y conciliar información de los libros electrónicos (PLE) de la SUNAT y archivos bancarios.",
-    tags: ["Python", "Flask", "Pandas", "JavaScript"],
+      "Aplicación web full stack desarrollada con arquitectura modular para procesar, automatizar y conciliar información masiva de los libros electrónicos (PLE) de la SUNAT y archivos bancarios, reduciendo tiempos operativos y tareas manuales.",
+    tags: ["Python", "Flask", "Pandas", "JavaScript", "ETL"],
     image: "/images/SS_PaginaCombinaPLE.png",
     link: "https://github.com/LeoPC2004/Pagina_Combinaci-n-LibrosPLE_Bancos"
   },
   {
     title: "Automatización de Reportes Financieros",
     description:
-      "Aplicación web desarrollada con Flask para la automatización, consolidación y actualización masiva de reportes financieros mediante archivos Excel y TXT.",
-    tags: ["Python", "Flask", "Pandas", "OpenPyXL"],
+      "Aplicación web desarrollada con Flask que automatiza la ingesta, procesamiento, consolidación y actualización masiva de reportes financieros a partir de archivos Excel y TXT, alimentando dashboards en Power BI.",
+    tags: ["Python", "Flask", "Pandas", "Power BI", "ETL", "OpenPyXL"],
     image: "/images/SS_PaginaAutoReportesConta.png",
     link: "https://github.com/LeoPC2004/Automatizaci-n-Reportes-Financieros"
   },
   {
     title: "Plataforma de Evaluación Crediticia con ML",
     description:
-      "Desarrollo de modelos predictivos supervisados y no supervisados para el análisis de viabilidad crediticia integrando procesos de ETL.",
-    tags: ["Machine Learning", "Databricks", "DataLake", "ETL"],
+      "Desarrollo de modelos predictivos supervisados y no supervisados en Databricks e integración con Data Lake para el análisis de riesgo y viabilidad crediticia mediante pipelines de ETL.",
+    tags: ["Machine Learning", "Databricks", "Data Lake", "ETL", "Python"],
     image: "/images/SS_PaginaML.png",
     link: ""
   },
   {
     title: "Dashboards de Reportes Contables",
     description:
-      "Desarrollo de dashboards interactivos y medición de KPIs para reportes contables de Situación Financiera y Ganancias y Pérdidas.",
-    tags: ["Power BI", "KPIs", "Data Visualization", "Finanzas"],
+      "Desarrollo de dashboards ejecutivos e interactivos en Power BI con medición de KPIs para el análisis de la Situación Financiera y Estado de Ganancias y Pérdidas.",
+    tags: ["Power BI", "Business Intelligence", "KPIs", "Data Visualization", "SQL"],
     image: "/images/SS_ReportesCuentasContable.png",
     link: ""
   }
@@ -113,8 +121,8 @@ export const education = [
   {
     institution: "Universidad de Lima",
     degree: "Ingeniería de Sistemas",
-    status: "Medio Superior",
-    period: "2021 – Actualidad"
+    status: "Egresado (Bachiller en trámite)",
+    period: "2021 – 2025"
   }
 ];
 

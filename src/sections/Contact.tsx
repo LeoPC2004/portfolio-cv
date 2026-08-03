@@ -72,7 +72,7 @@ export default function Contact() {
             </h2>
 
             <p className="text-cream/70 mb-10 text-lg">
-              ¿Interesado en trabajar juntos o discutir un proyecto de Data Engineering y Automatización? Escríbeme y responderé lo antes posible.
+              ¿Interesado en colaborar o discutir un proyecto de Data Analytics, Business Intelligence, Desarrollo de Software, Automatización de Procesos o Ingeniería de Datos? Escríbeme y responderé lo antes posible.
             </p>
 
             <div className="space-y-6">
