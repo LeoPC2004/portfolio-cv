@@ -144,7 +144,6 @@ export const currentCourses = [
 ];
 
 export const certificates = [
-  { name: "Grado de Bachiller y Constancia de Egresado (2026) - Universidad de Lima", image: "" },
   { name: "SQL Server 2019 – Avanzado", image: "/images/Certificado SQL Server.jpg" },
   { name: "Power BI – Avanzado", image: "/images/Certificado PowerBi.jpg" },
   { name: "Power BI – Intermedio", image: "/images/POWERBI INTERMEDIO.jpg" },
