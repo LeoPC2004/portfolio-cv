@@ -8,6 +8,7 @@ import Projects from './sections/Projects';
 import Education from './sections/Education';
 import Certificates from './sections/Certificates';
 import Languages from './sections/Languages';
+import CurrentCourses from './sections/CurrentCourses';
 import Contact from './sections/Contact';
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Projects />
         <Education />
         <Certificates />
+        <CurrentCourses />
         <Languages />
         <Contact />
       </main>

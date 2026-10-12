@@ -1,8 +1,8 @@
 export const personalInfo = {
   name: "LEONARDO PACHAS CLEONARES",
-  title: "Estudiante de Ingeniería de Sistemas | Data Engineering & Automation Enthusiast",
+  title: "Bachiller en Ingeniería de Sistemas | Data Engineering & Automation Enthusiast",
   shortDescription:
-    "Practicante de Sistemas orientado a automatización de procesos, transformación de datos y desarrollo de soluciones tecnológicas modernas utilizando Python, Power BI, SQL y herramientas de análisis de datos.",
+    "Bachiller en Ingeniería de Sistemas orientado a automatización de procesos, transformación de datos y desarrollo de soluciones tecnológicas modernas utilizando Python, Power BI, SQL y herramientas de análisis de datos.",
   contact: {
     phone: "937424001",
     email: "lmpc995205@gmail.com",
@@ -10,7 +10,7 @@ export const personalInfo = {
     github: "https://github.com/LeoPC2004"
   },
   about:
-    "Estudiante de Ingeniería de Sistemas (10.º ciclo) en la Universidad de Lima, con orientación profesional hacia el desarrollo de software, automatización de procesos y sistemas de información. Experiencia en proyectos relacionados con programación, visualización de datos, automatización y análisis financiero mediante Power BI, Python y VBA. Perfil proactivo, analítico y orientado a soluciones tecnológicas modernas."
+    "Egresado y Bachiller en Ingeniería de Sistemas de la Universidad de Lima (2021 – 2026, Quinto Superior), con orientación profesional hacia el desarrollo de software, automatización de procesos y sistemas de información. Experiencia en proyectos relacionados con programación, visualización de datos, automatización y análisis financiero mediante Power BI, Python y VBA. Perfil proactivo, analítico y orientado a soluciones tecnológicas modernas."
 };
 
 export const skills = {
@@ -56,20 +56,23 @@ export const skills = {
 
 export const experience = [
   {
-    role: "Practicante de Sistemas",
+    role: "Practicante Profesional de Sistemas",
     company: "Banco de la Nación",
-    period: "Agosto 2025 – Actualidad",
+    period: "Agosto 2026 – Actualidad",
     functions: [
-      "Creación de páginas interactivas para limpieza, transformación y ordenamiento de data bancaria",
-      "Automatización de procesos con Python y VBA",
-      "Conversión y estructuración de archivos PDF a Excel",
-      "Automatización de reportes financieros",
-      "Desarrollo de dashboards en Power BI",
-      "Herramientas de análisis financiero y seguimiento de indicadores",
-      "Integración y consolidación de datos bancarios",
-      "Aplicación de procesos ETL para transformación de información",
-      "Manejo conceptual de Data Lake y Data Warehouse para organización y análisis de datos",
-      "Uso de SQL para consultas y validación de información financiera"
+      "Liderazgo en automatización con Python y flujos en Power Automate e integración con Power Apps.",
+      "Desarrollo de aplicaciones web internas en Python/Flask e interfaces para limpieza, ordenamiento e integración de data bancaria.",
+      "Dashboards en Power BI integrados con SQL Server y conceptos de Data Lake / Data Warehouse."
+    ]
+  },
+  {
+    role: "Practicante Preprofesional de Sistemas",
+    company: "Banco de la Nación",
+    period: "Agosto 2025 – Julio 2026",
+    functions: [
+      "Conversión y estructuración de PDF a Excel con Python y VBA.",
+      "Automatización de reportes financieros y ejecuciones de pipelines ETL.",
+      "Consultas SQL avanzadas, consolidación de datos y pruebas QA."
     ]
   }
 ];
@@ -112,13 +115,36 @@ export const projects = [
 export const education = [
   {
     institution: "Universidad de Lima",
-    degree: "Ingeniería de Sistemas",
-    status: "Medio Superior",
-    period: "2021 – Actualidad"
+    degree: "Bachiller en Ingeniería de Sistemas",
+    status: "Bachiller / Egresado",
+    period: "2021 – 2026",
+    certificates: [
+      { label: "Ver Grado de Bachiller", url: "/images/Bachiller Leonardo.pdf" },
+      { label: "Ver Constancia de Egresado", url: "/images/Egresado Leonardo.pdf" }
+    ]
+  }
+];
+
+export const currentCourses = [
+  {
+    name: "Inteligencia Artificial con Microsoft Copilot y Microsoft 365 - Grupo 1",
+    status: "En curso",
+    link: ""
+  },
+  {
+    name: "Prompt Engineering y Creación de Agentes de IA Generativa",
+    status: "En curso",
+    link: ""
+  },
+  {
+    name: "Azure AZ-900",
+    status: "En curso",
+    link: ""
   }
 ];
 
 export const certificates = [
+  { name: "Grado de Bachiller y Constancia de Egresado (2026) - Universidad de Lima", image: "" },
   { name: "SQL Server 2019 – Avanzado", image: "/images/Certificado SQL Server.jpg" },
   { name: "Power BI – Avanzado", image: "/images/Certificado PowerBi.jpg" },
   { name: "Power BI – Intermedio", image: "/images/POWERBI INTERMEDIO.jpg" },
